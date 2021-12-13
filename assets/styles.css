@@ -5,7 +5,12 @@
     font-size: 16px;
 }
 
+
 img {
     height: 300px;
     width: auto;
+}
+
+li {
+    list-style: none;
 }
