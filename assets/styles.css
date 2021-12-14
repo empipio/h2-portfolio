@@ -1,18 +1,40 @@
 *{
     color: navy;
-    background-color: oldlace;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
 }
 
 #main-header {
-    background-color: aquamarine;
+    background-color: rgb(100, 211, 255);
+    padding: 40px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-style: italic;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #card1 {
