@@ -51,10 +51,10 @@ section {
     border-width: 1px;
   }
 
-img {
-    height: 250px;
-    width: auto;
-}
+  img {
+      height: 300px;
+      width: auto;
+  }
 
 li {
     list-style: none;
