@@ -12,7 +12,7 @@
 
 header h1 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 400%;
     font-style: italic;
 }
 
@@ -31,31 +31,54 @@ header nav ul li {
     margin-bottom: 10px;
 }
 
-section {
+h2 {
+    font-size: 150%;
+}
+
+#me {
+    display: flex;
+}
+
+#work {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+#work header {
+    font: bold;
+    font-size: 150%;
 }
 
 #card1 {
     padding: 5px;
-    width: 600px;
+    width: fit-content;
     border-style: solid;
     border-width: 1px;
   }
 
 .card {
-    padding: 10px;
-    width: 300px;
+    padding: 5px;
+    width: fit-content;
     border-style: solid;
     border-width: 1px;
   }
+
+.main image {
+    height: 300px;
+    width: 900px;
+}
 
   img {
       height: 300px;
       width: auto;
   }
 
-li {
-    list-style: none;
+#contact ul {
+    list-style-type: none;
+}
+
+#contact li {
+    display: inline-block;
+    font-style: italic;
 }
