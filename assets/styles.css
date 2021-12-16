@@ -39,6 +39,10 @@ h2 {
     font-size: 150%;
 }
 
+p {
+    text-align: center;
+}
+
 #me {
     display: flex;
 }
@@ -79,6 +83,8 @@ h2 {
 #horiseon {
     max-width: 100%;
     max-height: 100%;
+    margin: auto;
+    display: block;
 }
 
 .card {
